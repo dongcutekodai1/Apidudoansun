@@ -1,17 +1,15 @@
 {
   "name": "apidudoansun",
   "version": "1.0.0",
-  "description": "API dự đoán Sun Tài Xỉu",
+  "description": "API dự đoán Sunwin Tài Xỉu",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "fastify": "^4.28.1",
     "ws": "^8.18.0",
-    "node-fetch": "^3.3.2",
-    "dotenv": "^16.4.5",
-    "sqlite3": "^5.1.7"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
   },
   "engines": {
     "node": "22.x"
